@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Board {
     private BoardElement[][] elements = new BoardElement[8][8];
 

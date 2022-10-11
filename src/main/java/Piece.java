@@ -1,14 +1,14 @@
 public class Piece extends BoardElement{
     public Color color;
-    public Type visualType;
-    public Type movementType;
+    public Type look;
+    public MoveSet movement;
     public boolean isKing;
 
-    Piece(Color color, Type visualType, Type movementType, boolean isKing){
+    Piece(Color color, Type look, MoveSet movement, boolean isKing){
         isEmpty = false;
         this.color = color;
-        this.visualType = visualType;
-        this.movementType = movementType;
+        this.look = look;
+        this.movement = movement;
         this.isKing = isKing;
     }
 }
