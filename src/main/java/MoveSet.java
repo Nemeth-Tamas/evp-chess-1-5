@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MoveSet{
-    public ArrayList<Move> moves;
-    public boolean repeating;
+public record MoveSet(){
+    public static ArrayList<Coords> moves;
+    public static boolean repeating;
 }
